@@ -53,10 +53,12 @@ p::selection {
 
   .highlight {
     display: inline-block;
+    text-decoration: none;
     position: relative;
     color: var(--font);
     cursor: pointer;
     margin: 0vw 0px;
+    transition: 400ms cubic-bezier(.8,0,.2,1);
   }
 
   .highlight::selection {
