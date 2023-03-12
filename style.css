@@ -41,7 +41,7 @@ a {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
     font-size: 6vw;
-    line-height: 1.1em;
+    line-height: 1.15em;
     text-transform: lowercase;
 }
 
@@ -56,8 +56,12 @@ p::selection {
     position: relative;
     color: var(--font);
     cursor: pointer;
-    margin: 50px 0px;
-    padding: 0 16px 0 0;
+    margin: 0vw 0px;
+  }
+
+  .highlight::selection {
+    color: var(--background);
+    background: var(--font);
   }
   
   .highlight:after {
@@ -169,6 +173,7 @@ p::selection {
 
     .message {
         font-size: 13vw;
+        max-width: 85%;
         margin: 24px 16px 80px 16px;
     }
 
