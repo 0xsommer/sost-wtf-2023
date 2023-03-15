@@ -179,6 +179,20 @@ p::selection {
         margin: 24px 16px 80px 16px;
     }
 
+    .highlight:after {
+      height: 6px;
+      bottom: -6px;
+    }
+
+    .highlight:hover {
+      color: var(--font);
+    }
+
+    .highlight:hover:after {
+      height: 6px;
+      bottom: -6px;
+    }
+
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
